@@ -48,7 +48,7 @@
 - Client -> `npm install` -> `npm run dev`
 
 ```javascript
-;[
+const user = [
 	{
 		id: '1',
 		username: 'john',
