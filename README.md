@@ -7,7 +7,7 @@
 
 - POST: `localhost:5000/api/login`
 
-  ```json
+  ```javascript
   // body
   {
     "username": "john",
@@ -24,7 +24,7 @@
 
 - POST: `localhost:5000/api/refresh`
 
-  ```json
+  ```javascript
   // body
   {
   	"token": "..."
