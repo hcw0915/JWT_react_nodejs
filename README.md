@@ -47,17 +47,17 @@
 - Server -> `npm install` -> `npm start`
 - Client -> `npm install` -> `npm run dev`
 
-```json
-[
+```javascript
+;[
 	{
-		"id": "1",
-		"username": "john",
-		"password": "123"
+		id: '1',
+		username: 'john',
+		password: '123'
 	},
 	{
-		"id": "2",
-		"username": "jane",
-		"password": "123"
+		id: '2',
+		username: 'jane',
+		password: '123'
 	}
 ]
 ```
