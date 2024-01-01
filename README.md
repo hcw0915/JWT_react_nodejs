@@ -7,7 +7,7 @@
 
 - POST: `localhost:5000/api/login`
 
-  ```javascript
+  ```
   // body
   {
     "username": "john",
@@ -24,7 +24,7 @@
 
 - POST: `localhost:5000/api/refresh`
 
-  ```javascript
+  ```
   // body
   {
   	"token": "..."
@@ -47,7 +47,7 @@
 - Server -> `npm install` -> `npm start`
 - Client -> `npm install` -> `npm run dev`
 
-```javascript
+```
 const user = [
 	{
 		id: '1',
@@ -68,7 +68,7 @@ const user = [
 
 - 配合 Axios interceptors 針對 refresh token updated 做一個獨立的 middleware 處理。
 
-```javascript
+```
 const axiosJWT = axios.create()
 axiosJWT.interceptors.request.use(
 	// do sth
